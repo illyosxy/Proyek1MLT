@@ -71,30 +71,11 @@ Univariate Analysis adalah menganalisis setiap fitur secara terpisah.
 
 #### Analisis jumlah nilai unique pada setiap fitur
 
-<div><img src="https://github.com/illyosxy/Proyek1MLT/blob/main/SS/1.png?raw=true" width="220"/></div>
-Gambar 1. Jumlah nilai unique pada fitur Age. <br/>
-Jumlah nilai unique pada Fitur Age dapat dilihat pada gambar 1 diatas. Pada gambar tersebut dapat dilihat bahwa nilai unique tersebar cukup baik, sehingga tidak perlu adanya perubahan atau pembetulan data.
-<br><br/>
-
-<div><img src="https://github.com/illyosxy/Proyek1MLT/blob/main/SS/2.png?raw=true" width="220"/></div>
-Gambar 2. Jumlah nilai unique pada fitur Education Level. <br/>
-Jumlah nilai unique pada Fitur Education Level dapat dilihat pada gambar 2 diatas. Pada gambar tersebut dapat dilihat bahwa terdapat 1 buah sample yang hanya berisi 1 buah data, dimana sample tersebut seharusnya dapat dijadikan satu dengan sample lainnya (phD dan PhD). 
-<br><br/>
-
-<div><img src="https://github.com/illyosxy/Proyek1MLT/blob/main/SS/3.png?raw=true" width="220"/></div>
-Gambar 3. Jumlah nilai unique pada fitur Job Title. <br/>
-Jumlah nilai unique pada Fitur Job Title dapat dilihat pada gambar 3 diatas. Pada gambar tersebut dapat dilihat bahwa terdapat banyak sekali nilai unique sehingga alangkah baiknya fitur ini dihapus untuk menghindari high dimensional data.
-<br><br/>
-
-<div><img src="https://github.com/illyosxy/Proyek1MLT/blob/main/SS/4.png?raw=true" width="220"/></div>
-Gambar 4. Jumlah nilai unique pada fitur Year of Experience. <br/>
-Jumlah nilai unique pada Fitur Year of Experience dapat dilihat pada gambar 4 diatas. Pada gambar tersebut dapat dilihat bahwa nilai unique sudah tersebar cukup baik, dan kebanyakan calon pegawai memiliki pengalaman kurang dari 5 tahun.
-<br><br/>
-
-<div><img src="https://github.com/illyosxy/Proyek1MLT/blob/main/SS/5.png?raw=true" width="220"/></div>
-Gambar 5. Jumlah nilai unique pada fitur Salary. <br/>
-Jumlah nilai unique pada Fitur Salary dapat dilihat pada gambar 5 diatas. Pada gambar tersebut dapat dilihat bahwa nilai unique sudah tersebar cukup baik, sehingga tidak perlu adanya perubahan atau pembetulan data.
-<br><br/>
++ Jumlah nilai unique pada Fitur Age sudah tersebar cukup baik, sehingga tidak perlu adanya perubahan atau pembetulan data.
++ Pada Fitur Education Level terdapat 1 buah sample yang hanya berisi 1 buah data, dimana sample tersebut seharusnya dapat dijadikan satu dengan sample lainnya (phD dan PhD).
++ Pada Fitur Job Title terdapat banyak sekali nilai unique sehingga alangkah baiknya fitur ini dihapus untuk menghindari high dimensional data.
++ Jumlah nilai unique pada Fitur Year of Experience sudah tersebar cukup baik, dan kebanyakan calon pegawai memiliki pengalaman kurang dari 5 tahun.
++ Jumlah nilai unique pada Fitur Salary sudah tersebar cukup baik, sehingga tidak perlu adanya perubahan atau pembetulan data.
 
 #### Analisis sebaran pada setiap fitur numerik
 
