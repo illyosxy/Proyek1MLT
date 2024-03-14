@@ -80,8 +80,8 @@ Univariate Analysis adalah menganalisis setiap fitur secara terpisah.
 #### Analisis sebaran pada setiap fitur numerik
 
 <div><img src="https://github.com/illyosxy/Proyek1MLT/blob/main/SS/6.png?raw=true" width="450"/></div><br />
-Gambar 6. Chart Analisis sebaran pada setiap fitur numerik. <br/>
-Berikut merupakan analisis dari grafik pada gambar 6 di atas:
+Gambar 1. Chart Analisis sebaran pada setiap fitur numerik. <br/>
+Berikut merupakan analisis dari grafik pada gambar 1 di atas:
 
 + Sebagian besar pegawai berada pada rentang umur 25-30.
 + Sebagian besar pegawai memiliki pengalaman kurang dari 5 tahun.
@@ -95,8 +95,8 @@ Multivariate Analysis menunjukkan hubungan antara dua atau lebih fitur dalam dat
   
 + Melihat kolerasi antara semua fitur numerik
   <div><img src="https://github.com/illyosxy/Proyek1MLT/blob/main/SS/7.png?raw=true" width="350"/></div>
-  Gambar 7. Matrik korelasi antara semua fitur numerik. <br/>
-  Ketiga fitur numerik tersebut memiliki korelasi yang cukup tinggi seperti yang dilihat pada gambar 7 diatas, sehingga hal ini akan sangat bagus dalam proses pembuatan model nanti.
+  Gambar 2. Matrik korelasi antara semua fitur numerik. <br/>
+  Ketiga fitur numerik tersebut memiliki korelasi yang cukup tinggi seperti yang dilihat pada gambar 2 diatas, sehingga hal ini akan sangat bagus dalam proses pembuatan model nanti.
 
 #### Analisis fitur kategorik
 
@@ -104,8 +104,8 @@ Analisis ini dilakukan untuk melihat kolerasi antara fitur kategorik dengan fitu
 
 + Fitur Education Level
   <div><img src="https://github.com/illyosxy/Proyek1MLT/blob/main/SS/8.png?raw=true" width="500"/></div>
-  Gambar 8. Bart Chart Korelasi Fitur Education Level dengan Salary. <br/>
-  Pada gambar 8 diatas, dapat dilihat bahwa Fitur Education Level memiliki pengaruh yang sangat tinggi terhadap gaji pegawai, semakin tinggi tingkat pendidikan pegawai maka semakin besar pula gaji pegawai yang didapatkan.
+  Gambar 3. Bart Chart Korelasi Fitur Education Level dengan Salary. <br/>
+  Pada gambar 3 diatas, dapat dilihat bahwa Fitur Education Level memiliki pengaruh yang sangat tinggi terhadap gaji pegawai, semakin tinggi tingkat pendidikan pegawai maka semakin besar pula gaji pegawai yang didapatkan.
 
 ## Data preparation
 
@@ -143,7 +143,7 @@ Analisis ini dilakukan untuk melihat kolerasi antara fitur kategorik dengan fitu
   |----------|-----------------------------------------------------------------|
   | knn      | {'n_neighbors': 6}                                              |
   | boosting | {'learning_rate': 0.1, 'n_estimators': 100, 'random_state': 11} |
-  | rf       | {'max_depth': 32, 'n_estimators': 25, 'random_stste': 11}        |
+  | rf       | {'max_depth': 32, 'n_estimators': 25, 'random_stste': 11}       |
 
 ## Evaluation
 
@@ -161,7 +161,7 @@ Berikut hasil evaluasi model :
 
 + Mean Squared Error (MSE)
   <div><img src="https://github.com/illyosxy/Proyek1MLT/blob/main/SS/9.png?raw=true" width="300"/></div>
-  Gambar 9. Hasil Testing setiap algoritma terhadap data testing. <br/>
+  Gambar 4. Hasil Testing setiap algoritma terhadap data testing. <br/>
 
 Dari hasil evaluasi diatas dapat dilihat bahwa model dengan algoritma Random Forest memiliki akurasi lebih tinggi tinggi dibandingkan dengan AdaBoost dan KNN. Hasil akurasi yang dihasilkan oleh algoritma juga sangat bagus yaitu 93%. Hasil yang ditunjukkan juga dapat digunakan untuk memecahkan masalah perusahaan ketika ingin memberikan gaji kepada calon pegawai. Dari keseluruhan proyek ini dapat disimpulkan bahwa sistem ini dapat bekerja dengan sangat baik, hal ini dapat dilihat dari akurasi yang dihasilkan oleh model.
 
