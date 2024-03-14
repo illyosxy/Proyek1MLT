@@ -21,8 +21,6 @@ Setiap gaji tidak selalu pasti sama walaupun memiliki jenis pekerjaan yang sama 
 
 Untuk itu perlu dikembangkan sistem prediksi gaji seseorang menggunakan model machine learning. Diharapkan model ini mampu memprediksi Gaji yang sesuai dengan pasar dan kualifikasi yang dimiliki. Prediksi ini nantinya dijadikan acuan bagi perusahaan dalam menentukan gaji calon pegawainya.
 
-Referensi : [Random Forest for Salary Prediction System to Improve Students' Motivation](https://doi.org/10.1109/SITIS.2016.106)
-
 ## Business Understanding
 
 Proyek ini dibangun untuk mempermudah perusahaan dalam memberikan gaji pegawai sesuai kualifikasi pegawainya.
@@ -168,9 +166,8 @@ Analisis ini dilakukan untuk melihat kolerasi antara fitur kategorik dengan fitu
 
 ## Evaluation
 
-Metrik evaluasi yang digunakan pada proyek ini adalah akurasi dan mean squared error (MSE). Akurasi menentukan tingkat kemiripan antara hasil prediksi dengan nilai yang sebenarnya (y_test). Mean squared error (MSE) mengukur error dalam model statistik dengan cara menghitung rata-rata error dari kuadrat hasil aktual dikurang hasil prediksi. Berikut merupakan formula MSE:
-<div><img src="https://github.com/illyosxy/Proyek1MLT/blob/main/SS/10.png?raw=true" width="350"/></div>
-Gambar 8. Formula perhitungan MSE. <br/>
+Metrik evaluasi yang digunakan pada proyek ini adalah akurasi dan mean squared error (MSE). Akurasi menentukan tingkat kemiripan antara hasil prediksi dengan nilai yang sebenarnya (y_test). Mean squared error (MSE) mengukur error dalam model statistik dengan cara menghitung rata-rata error dari kuadrat hasil aktual dikurang hasil prediksi. Berikut merupakan formula MSE: <br/>
+$$\text{MSE}(y, \hat{y}) = \frac{\sum_{i=0}^{N - 1} (y_i - \hat{y}_i)^2}{N}$$
 
 Berikut hasil evaluasi model :
 
