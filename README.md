@@ -189,5 +189,5 @@ Dari hasil evaluasi diatas dapat dilihat bahwa model dengan algoritma Random For
 
 ## Reference
 
-[1] Eichinger, F., Mayer, M. (2022). Predicting Salaries with Random-Forest Regression. In: Alyoubi, B., Ben Ncir, CE., Alharbi, I., Jarboui, A. (eds) Machine Learning and Data Analytics for Solving Business Problems. Unsupervised and Semi-Supervised Learning. Springer, Cham. https://doi.org/10.1007/978-3-031-18483-3_1
+[1] Eichinger, F., Mayer, M. (2022). Predicting Salaries with Random-Forest Regression. In: Alyoubi, B., Ben Ncir, CE., Alharbi, I., Jarboui, A. (eds) Machine Learning and Data Analytics for Solving Business Problems. Unsupervised and Semi-Supervised Learning. Springer, Cham. https://doi.org/10.1007/978-3-031-18483-3_1. <br/>
 [2] P. Khongchai and P. Songmuang, "Random Forest for Salary Prediction System to Improve Students' Motivation," 2016 12th International Conference on Signal-Image Technology & Internet-Based Systems (SITIS), Naples, Italy, 2016, pp. 637-642, doi: 10.1109/SITIS.2016.106.
